@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+
+         a {
+            text-decoration: none;
+            color: #4DB8FF;
+            font-size: 1.2em;
+            font-weight: bold;
+         }
+         a:hover {
+            color: #00ffc6;
+            transition: all ease 0.3s;
+         }
+        h1 {
+            color: #00ffc6;
+            font-size: 2em;
+            /* border-bottom: 4px solid #ffd770; */
+            /* display: inline-block; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h2 {
+            font-size: 1.5em;
+            font-family: monospace;
+            border-bottom: 2px solid #ffffff;
+            display: inline-block;
+        }
+        p {
+            color: #eee;
+            font-size: 1.2em;
+        }
+        input[type="text"], input[type="email"], textarea {
+            padding: 8px;
+            margin-top: 5px;
+            background-color: #eee;
+            border: none;
+            outline: none;
+            font-weight: 600;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center; margin: 40px; background: linear-gradient(to right, #141E30, #243B55); color: #f8f9fa;">
+
+    
+    <nav>
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: inline; margin: 0 10px;"><a href="#about" >About me</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#projects">Project</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#skills">Skills</a></li>
+            <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm a passionate web developer with a strong interest in creating interactive web applications.</p>
+    </section>
+    
+    <section id="projects">
+        <h1>My Projects</h1>
+        <h2>Modern Portfolio Website</h2>
+        <p>A modern portfolio website with smooth animations.</p>
+        <h2>AI based chatbot</h2>
+        <p>An AI-based chatbot that provides instant responses.</p>
+        <h2>Weather App</h2>
+        <p>A dynamic weather app using real-time API data.</p>
+    </section>
+    
+    <section id="skills">
+        <h1>My Skills</h1>
+        
+        <table border="1" style="
+        width: 60%; 
+        border-collapse: collapse; 
+        margin: 20px auto; 
+        background: #ffffff; 
+        color: #333; 
+        border-radius: 8px; 
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    ">
+        <tr style="background: #243B55; color: white; font-weight: bold;">
+            <th style="padding: 12px; ">Skill</th>
+            <th style="padding: 12px; ">Proficiency</th>
+        </tr>
+        <tr style="background: #f2f2f2;">
+            <td style="padding: 12px;">HTML</td>
+            <td style="padding: 12px;">Advanced</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px;">CSS</td>
+            <td style="padding: 12px;">Expert</td>
+        </tr>
+        <tr style="background: #f2f2f2;">
+            <td style="padding: 12px;">JavaScript</td>
+            <td style="padding: 12px;">Intermediate</td>
+        </tr>
+    </table>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form style="width: 60%; margin: 0 auto;">
+            <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 8px; margin-top: 5px;"><br>
+            <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 8px; margin-top: 5px;"><br>
+            <textarea name="message" placeholder="Your Message" rows="4" required style="width: 100%; padding: 8px; margin-top: 5px;"></textarea><br>
+            <input type="submit" value="Send Message" style="padding: 8px; margin-top: 5px; background: #4DB8FF; font-size: 1.1em; font-weight: bold; cursor: pointer;">
+        </form>
+    </section>
+    
+    <section>
+        <h1>Introduction Video</h1> <br>
+        <video width="60%" controls loop autoplay>
+            <source src="My Portfolio - Google Chrome 2025-03-05 01-38-45.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</body>
+</html> 
