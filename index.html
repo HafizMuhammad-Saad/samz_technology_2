@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
 
          a {
             text-decoration: none;
@@ -62,17 +63,17 @@
    height: 100px;
 }
 
-    </style>
+    </style> -->
 </head>
-<body style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center; margin: 40px; background: linear-gradient(to right, #141E30, #243B55); color: #f8f9fa;">
+<body>
 
     
     <nav>
-        <ul style="list-style: none; padding: 0;">
-            <li style="display: inline; margin: 0 10px;"><a href="#about" >About me</a></li>
-            <li style="display: inline; margin: 0 10px;"><a href="#projects">Project</a></li>
-            <li style="display: inline; margin: 0 10px;"><a href="#skills">Skills</a></li>
-            <li style="display: inline; margin: 0 10px;"><a href="#contact">Contact me</a></li>
+        <ul>
+            <li><a href="#about" >About me</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact me</a></li>
         </ul>
     </nav>
     
@@ -94,39 +95,30 @@
     <section id="skills">
         <h1>My Skills</h1>
         
-        <table border="1" style="
-        width: 60%; 
-        border-collapse: collapse; 
-        margin: 20px auto; 
-        background: #ffffff; 
-        color: #333; 
-        border-radius: 8px; 
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    ">
-        <tr style="background: #243B55; color: white; font-weight: bold;">
-            <th style="padding: 12px; ">Skill</th>
-            <th style="padding: 12px; ">Proficiency</th>
-        </tr>
-        <tr style="background: #f2f2f2;">
-            <td style="padding: 12px;">HTML</td>
-            <td style="padding: 12px;">Advanced</td>
+        <table border="1">
+        <tr>
+            <th>Skill</th>
+            <th>Proficiency</th>
         </tr>
         <tr>
-            <td style="padding: 12px;">CSS</td>
-            <td style="padding: 12px;">Expert</td>
-        </tr>
-        <tr style="background: #f2f2f2;">
-            <td style="padding: 12px;">JavaScript</td>
-            <td style="padding: 12px;">Intermediate</td>
+            <td>HTML</td>
+            <td>Advanced</td>
         </tr>
         <tr>
-            <td style="padding: 12px;">React</td>
-            <td style="padding: 12px;">Beginner</td>
+            <td>CSS</td>
+            <td>Expert</td>
         </tr>
-        <tr style="background: #f2f2f2;">
-            <td style="padding: 12px;">Typescript</td>
-            <td style="padding: 12px;">Intermediate</td>
+        <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>Typescript</td>
+            <td>Intermediate</td>
         </tr>
     </table>
     </section>
@@ -134,10 +126,10 @@
     <section id="contact">
         <h1>Contact Me</h1>
         <form style="width: 60%; margin: 0 auto;">
-            <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 8px; margin-top: 5px;"><br>
-            <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 8px; margin-top: 5px;"><br>
-            <textarea name="message" placeholder="Your Message" rows="4" required style="width: 100%; padding: 8px; margin-top: 5px;"></textarea><br>
-            <input type="submit" value="Send Message" style="padding: 8px; margin-top: 5px; background: #4DB8FF; font-size: 1.1em; font-weight: bold; cursor: pointer;">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
+            <input type="submit" value="Send Message">
         </form>
     </section>
     
