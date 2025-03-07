@@ -27,7 +27,7 @@ table {
 
 tr { background: #243B55; color: white; font-weight: bold; }
 
-td, td {padding: 12px; }
+td, th {padding: 12px; }
 
 a {
     text-decoration: none;
